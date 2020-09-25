@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Flex</title>
+    <style media="screen">
+    body{
+      text-align:center;
+      background-color:#8fbc8f;
+
+    }
+    div{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+    }
+
+    img{
+      width: 350px;
+      height: 350px;
+      padding: 5px;
+      margin: 10px;
+      transition: width 2s height 2s;
+    }
+    img:hover{
+      transform: scale(1.2);
+    }
+    h1{
+       padding: 15px;
+       margin: 30px;
+        text-align: center;
+        font-family: 'Fredoka One', cursive;
+        background-color: red;
+        animation-name: example;
+        animation-duration: 4s;
+        animation-iteration-count: 100;
+
+      }
+      @keyframes example {
+        0%   {background-color: red;}
+        25%  {background-color: yellow;}
+        50%  {background-color: blue;}
+        100% {background-color: green;}
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Flex</h1>
+<div class="container">
+  <img src="tiger.jpg" alt="">
+  <img src="cat.jpg" alt="">
+  <img src="wb.jpg" alt="">
+  <img src="bird.jpg" alt="">
+  <img src="turtle.jpg" alt="">
+  <img src="fox.jpg" alt="">
+</div>
+  </body>
+</html>
