@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Flex</title>
+    <style media="screen">
+
+     h1{
+        text-align: center;
+        font-family: 'Fredoka One', cursive;
+      }
+      body{
+        text-align:center;
+        background-color:#8fbc8f;
+
+      }
+      div{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+      }
+
+      img{
+        width: 350px;
+        height: 350px;
+        padding: 5px;
+        margin: 10px;
+        transition: width 2s, height 2s, transform 2s;
+      }
+      img:hover{
+        transform:  rotate(70deg);
+        border-color: black;
+        width: 150px;
+        height: 150px;
+      }
+      h1{
+        width:30%;
+        background-color: white;
+      }
+       .st:hover{
+        width: 100%;
+        
+        background-color: red;
+        color: white;
+        border-radius: 10%;
+        border-color: blue;
+        border-width: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="st">Prasanjeet Singh </h1>
+    <h1>Flex</h1>
+<div class="container">
+  <div class="a">
+    <img src="tiger.jpg" alt="">
+    <img src="cat.jpg" alt="">
+    <img src="wb.jpg" alt="">
+  </div>
+  <div class="b">
+    <img src="bird.jpg" alt="">
+    <img src="turtle.jpg" alt="">
+    <img src="fox.jpg" alt="">
+  </div>
+
+
+</div>
+  </body>
+</html>

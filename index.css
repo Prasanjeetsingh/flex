@@ -1,0 +1,27 @@
+body{
+  text-align:center;
+  background-color:#8fbc8f;
+
+}
+div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+img{
+  width: 350px;
+  height: 350px;
+  padding: 5px;
+  margin: 10px;
+  transition: width 2s height 2s;
+}
+img:hover{
+  transform: scale(1.2);
+}
+h1{
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+
+  }
